@@ -17,6 +17,6 @@ def mayor_estricto(a, b, c):
             return c
 
 
-assert (-1 == mayor_estricto(3, 5, 5))
-assert (7 == mayor_estricto(3, 5, 7))
-assert (5 == mayor_estricto(3, 3, 5))
+assert -1 == mayor_estricto(1, 5, 5)
+assert 7 == mayor_estricto(3, 5, 7)
+assert 5 == mayor_estricto(3, 3, 5)
